@@ -35,10 +35,10 @@ export default {
         console.log("meta", import.meta);
         // giscus配置
         giscusTalk({
-            repo: 'QLing-yes/record', //仓库
-            repoId: 'R_kgDOLoKudA', //仓库ID
+            repo: 'uuuuuii/notes', //仓库
+            repoId: 'R_kgDOLq8DuA', //仓库ID
             category: 'Announcements', // 讨论分类
-            categoryId: 'DIC_kwDOLoKudM4CeXuN', //讨论分类ID
+            categoryId: 'DIC_kwDOLq8DuM4CeiKv', //讨论分类ID
             mapping: 'pathname',
             inputPosition: 'bottom',
             lang: 'zh-CN',

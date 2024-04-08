@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "glob": "^10.3.12",
+    "less": "^4.2.0",
+    "medium-zoom": "^1.1.0",
+    "vite-plugin-env-parse": "^1.0.10",
+    "vitepress": "^1.0.2",
+    "vitepress-plugin-comment-with-giscus": "^1.1.12",
+    "vue": "^3.4.21"
+  },
+  "volta": {
+    "node": "20.12.0",
+    "pnpm": "8.15.5"
+  }
+}

@@ -76,7 +76,7 @@ export default defineConfig({
     },
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/QLing-yes' },
+      { icon: 'github', link: 'https://github.com/uuuuuii/notes' },
     ],
     //页脚
     footer: {
@@ -90,7 +90,7 @@ export default defineConfig({
     },
     //编辑本页
     editLink: {
-      pattern: 'https://github.com/QLing-yes/record/edit/main/docs/:path',
+      pattern: 'https://github.com/uuuuuii/notes/edit/main/docs/:path',
       text: '编辑本页'
     },
     lastUpdated: {

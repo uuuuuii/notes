@@ -13,7 +13,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/logo.png' }],
   ],
   // base: '/',
-  base: '/record/',
+  base: '/notes/',
   cleanUrls: true,
   ignoreDeadLinks: true,
   metaChunk: true,

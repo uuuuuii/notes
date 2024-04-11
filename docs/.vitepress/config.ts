@@ -106,7 +106,7 @@ export default defineConfig({
       { text: '留言', link: "/nav/msg" },
     ],
     sidebar: pressAuto({
-      path: '/docs/notes',
+      path: '/md',
     })
   },
 

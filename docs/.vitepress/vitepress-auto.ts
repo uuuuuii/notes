@@ -6,6 +6,7 @@ const root = process.cwd() + `${path.sep}docs`;
 function toTree(op) {
     op.path = op.path.replace(/\//g, path.sep);
     const onDir = path.join(root, op.path);
+    console.log('-onDir-', onDir);
     const mdfiles = globSync([onDir + '/**/*.md'], { ignore: 'node_modules/**' })
      console.log('-mdfiles-', mdfiles);
     const Tree = pathToTree(mdfiles, op.path + path.sep) as object;
